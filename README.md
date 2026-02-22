@@ -30,6 +30,21 @@ Think of it as a reference you can keep open while reading a model card, sitting
 
 This project is in its early stages. We are currently building out the glossary of terms and adapting the site for our needs. Contributions and suggestions are welcome — see [How to contribute](./CONTRIBUTING.md) and the [issue tracker](https://github.com/ryan-serpico/abcsofai.news/issues).
 
+### Running locally
+
+1. Make sure you have [Node.js](https://nodejs.org/) installed.
+2. Clone the repo and install dependencies:
+   ```sh
+   git clone https://github.com/ryan-serpico/abcsofai.news.git
+   cd abcsofai.news
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm start
+   ```
+4. Open [localhost:3000](http://localhost:3000) in your browser. The site will automatically reload when you make changes.
+
 ### Links
 
 - [abcsofai.news](https://abcsofai.news/) (coming soon)
