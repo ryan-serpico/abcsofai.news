@@ -5,21 +5,17 @@ headline: abcsofai.news
 description: A glossary of AI terms for journalists
 
 [byline]
-name: Agustin Armendariz
-title: Senior Data Reporter at ICIJ
-url: https://www.icij.org/journalists/agustin-armendariz/
+name: Ryan Serpico
+title: Deputy Director of Newsroom AI and Automation at Hearst Newspapers
+url: https://github.com/ryan-serpico
 
-name: Anu Narayanswamy
-title: Deputy Data Director at the Washington Post
-url: https://www.washingtonpost.com/people/anu-narayanswamy/
+name: Libby Seline
+title: University of Chicago
+url: https://github.com/libbyseline
 
-name: Ben Welsh
-title: News Applications Editor at Reuters
-url: https://palewi.re/who-is-ben-welsh/
-
-name: Derek Willis
-title: Lecturer at the University of Maryland journalism school
-url: https://thescoop.org/about/
+name: Jon Keegan
+title: Sherwood News
+url: https://github.com/jonkeegan
 []
 
 pub_date: 2023-01-01 00:00:00
