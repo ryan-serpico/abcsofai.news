@@ -104,7 +104,6 @@
       <line x1="21" y1="21" x2="16.65" y2="16.65" />
     </svg>
     <input bind:this={inputEl} bind:value={val} type="text" placeholder="Search for a term..." />
-    <kbd class="search--shortcut">/</kbd>
   </div>
 </div>
 
