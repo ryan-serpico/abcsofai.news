@@ -1,0 +1,21 @@
+word: AI Coding Agent
+type: noun
+definition_list:
+  - text: >-
+      An AI system that can do software work in multiple steps — reading a codebase, writing or editing files, running commands, and checking results — to complete a programming task. Unlike a basic autocomplete tool, a coding agent is meant to take action and iterate until it reaches a goal, often with some human approvals along the way.
+
+
+      For data reporters and newsroom developers, an AI coding agent can speed up the unglamorous parts of building and maintaining reporting pipelines. For example, it might scaffold a scraper for a local government site, write a script to extract tables from PDFs into a CSV, or refactor a messy notebook into a repeatable command-line tool — then add logging and basic tests so the work is easier to rerun and audit. The key is to treat the agent like a fast junior collaborator: give it a small, testable task, review diffs carefully, and run its changes in a sandboxed environment before they touch real data or production systems.
+
+
+      Coding agents are a specific application of [agentic AI](/agentic-ai/): they plan, use tools, and can keep going over many steps. They often rely on reusable instructions ([agent skills](/agent-skills/)), can be split into parallel specialists ([subagents](/subagents/)), and may connect to outside systems through standards like [Model Context Protocol](/model-context-protocol/). Because they can read and act on external inputs (like websites and documents), they also raise security concerns such as [prompt injection](/prompt-injection/) and benefit from approval checkpoints (see [plan mode](/plan-mode/)).
+    in_use:
+      - text: "OpenAI announced on Friday it’s launching a research preview of Codex, the company’s most capable _AI coding agent_ yet."
+        source: TechCrunch
+        url: https://techcrunch.com/2025/05/16/openai-launches-codex-an-ai-coding-agent/
+      - text: "Google on Wednesday launched its _AI coding agent_, Jules, out of beta, just over two months after its public preview debut in May."
+        source: TechCrunch
+        url: https://techcrunch.com/2025/08/06/google-launches-jules-an-ai-coding-agent-that-automates-bug-fixes-and-other-tasks/
+      - text: "A DGM starts with a _coding agent_ that can read, write, and execute code."
+        source: IEEE Spectrum
+        url: https://spectrum.ieee.org/dgm-ai-coding-agents
