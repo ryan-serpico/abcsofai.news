@@ -1,0 +1,21 @@
+word: Context Engineering
+type: noun
+definition_list:
+  - text: >-
+      The practice of selecting and organizing all the information fed to an AI model — instructions, tools, conversation history, external data — to get the best possible results. Where prompt engineering focuses on writing a good set of instructions, context engineering is the broader discipline of deciding what goes into a model's limited [context window](/context-window/) at every step of a task.
+
+
+      For data reporters, context engineering is the difference between an AI that stumbles and one that delivers. When you ask a chatbot to analyze a stack of campaign finance records, the quality of the output depends not just on your prompt but on everything else in that context window: how much of the data fits, what background instructions are loaded, whether the model has access to tools like a database query or a web search. Context engineering is the work of assembling that full picture — choosing what to include, what to leave out, and what to let the model retrieve on its own as it works.
+
+
+      The term gained traction in 2025 as AI tools moved from one-shot tasks to longer, multi-step workflows — like an AI agent that can browse files, run code, and write reports across dozens of steps. In those settings, the model's [context window](/context-window/) fills up fast, making it critical to keep the context focused and relevant. Techniques like compaction (summarizing earlier conversation to free up space), structured note-taking, and breaking work across multiple sub-agents all fall under the context engineering umbrella. Related concepts include [tokens](/token/) and the [Model Context Protocol](/model-context-protocol/).
+    in_use:
+      - text: 'At Anthropic, we view _context engineering_ as the natural progression of prompt engineering. Prompt engineering refers to methods for writing and organizing LLM instructions for optimal outcomes. _Context engineering_ refers to the set of strategies for curating and maintaining the optimal set of tokens (information) during LLM inference, including all the other information that may land there outside of the prompts.'
+        source: Anthropic
+        url: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+      - text: 'As models become more capable, the challenge isn''t just crafting the perfect prompt — it''s thoughtfully curating what information enters the model''s limited attention budget at each step. Whether you''re implementing compaction for long-horizon tasks, designing token-efficient tools, or enabling agents to explore their environment just-in-time, the guiding principle remains the same: find the smallest set of high-signal _context_ that maximizes the likelihood of your desired outcome.'
+        source: Anthropic
+        url: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+      - text: 'The transition from ''vibe coding'' to what''s being termed ''_context engineering_'' highlights that while the work of human developers is evolving they nevertheless remain absolutely critical.'
+        source: MIT Technology Review
+        url: https://www.technologyreview.com/2025/11/05/1127477/from-vibe-coding-to-context-engineering-2025-in-software-development/

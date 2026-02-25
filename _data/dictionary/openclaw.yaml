@@ -1,0 +1,21 @@
+word: OpenClaw
+type: noun
+definition_list:
+  - text: >-
+      A free, open-source AI agent created by Austrian developer Peter Steinberger that runs on a user's own computer and carries out real-world tasks — managing email, browsing the web, scheduling calendar events — controlled through messaging apps like WhatsApp, Telegram, and Slack. Originally called Clawdbot, then Moltbot, it gained viral popularity in early 2026 and amassed hundreds of thousands of users before Steinberger announced he was joining OpenAI and moving the project to an independent foundation.
+
+
+      Unlike a chatbot that simply answers questions, OpenClaw acts autonomously: it reads your files, runs terminal commands, and remembers past conversations across sessions. Supporters call it "AI with hands." For a data reporter, that kind of agent could eventually automate repetitive tasks like monitoring government websites for new document postings, formatting FOIA responses into structured datasets, or running nightly scripts that check for changes in public records.
+
+
+      The project has also become a cautionary tale about [the lethal trifecta](/the-lethal-trifecta/) — the dangerous combination of access to private data, exposure to untrusted content, and the ability to communicate externally. Security researchers have warned that OpenClaw is vulnerable to [prompt injection](/prompt-injection/) attacks, where malicious instructions hidden in emails or documents can hijack the agent into leaking sensitive data. A cybersecurity audit found 512 vulnerabilities, eight of them critical. For newsrooms considering AI agents, OpenClaw illustrates both the promise and the risk of giving software the power to act on your behalf.
+    in_use:
+      - text: '_OpenClaw_, a rapidly spreading autonomous agentic AI system, highlights how agent-based technologies are advancing faster than the governance, security and controls required to use and deploy them responsibly.'
+        source: Chief Executive
+        url: https://chiefexecutive.net/openclaw-a-new-class-of-autonomous-ai-requires-attention/
+      - text: 'Supporters describe _OpenClaw_ as "AI with hands" and view it as "a major leap forward toward artificial general intelligence." Palo Alto Networks warned that _OpenClaw_ presents a "lethal trifecta" of risks from data access, untrusted content exposure, and external communication capabilities.'
+        source: CNBC
+        url: https://www.cnbc.com/2026/02/02/openclaw-open-source-ai-agent-rise-controversy-clawdbot-moltbot-moltbook.html
+      - text: '_OpenClaw_ is an open-source AI agent that typically runs locally on a Mac Mini or virtual private server — and connects to platforms like WhatsApp, Telegram, Slack, and Discord.'
+        source: Institutional Investor
+        url: https://www.institutionalinvestor.com/article/openclaw-ai-agent-institutional-investors-need-understand-shouldnt-touch
