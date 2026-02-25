@@ -1,6 +1,9 @@
 import { json } from 'd3-fetch';
 
 import CardList from './components/CardList.svelte';
+import { syncSiteChromeOffset } from './utils/site-chrome';
+
+syncSiteChromeOffset();
 
 const url = '/api/dictionary.json';
 const target = document.getElementById('card-container')!;

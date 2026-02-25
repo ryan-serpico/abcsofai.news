@@ -45,8 +45,10 @@
   {% endblock scripts %}
 </head>
 <body>
-  {% include 'banner.html' %}
-  {% include 'nav.html' %}
+  <div class="site-chrome">
+    {% include 'banner.html' %}
+    {% include 'nav.html' %}
+  </div>
   <main class="container">
     {% block content %}
     {% endblock content %}

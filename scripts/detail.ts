@@ -1,6 +1,9 @@
 import { json } from 'd3-fetch';
 
 import CardList from './components/CardList.svelte';
+import { syncSiteChromeOffset } from './utils/site-chrome';
+
+syncSiteChromeOffset();
 
 if (navigator.share) {
   const btn = document.getElementById('card--share')!;

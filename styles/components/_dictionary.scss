@@ -80,7 +80,7 @@
 // Search input
 .search {
   position: sticky;
-  top: 50px;
+  top: var(--site-chrome-offset, 78px);
   z-index: 99;
   background: colors.$white;
   padding: spacing.$space-3 0;
