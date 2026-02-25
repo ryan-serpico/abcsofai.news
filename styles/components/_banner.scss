@@ -1,0 +1,20 @@
+@use '../variables/fonts';
+@use '../variables/colors';
+
+.site-banner {
+  text-align: center;
+  padding: 0.4rem 1rem;
+  background: colors.$black;
+  font-family: fonts.$font-family-sans;
+  font-size: 13px;
+
+  a {
+    color: colors.$white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: colors.$white;
+    }
+  }
+}
