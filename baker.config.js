@@ -26,8 +26,13 @@ const escapeHtml = (str) =>
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
 
+const siteUrl = (process.env.SITE_URL || 'https://abcsofai.news').replace(
+  /\/+$/,
+  ''
+);
+
 export default {
-  domain: 'https://abcsofai.news/',
+  domain: `${siteUrl}/`,
   entrypoints: `scripts/${
     entrypoints.length > 1 ? `{${entrypoints.join(',')}}` : entrypoints[0]
   }.ts`,
@@ -95,8 +100,9 @@ export default {
     // Make sitemap
     createPage('sitemap.xml.njk', 'sitemap.xml', {
       urlList,
+      siteUrl,
     });
     // Make robots.txt
-    createPage('robots.txt.njk', 'robots.txt');
+    createPage('robots.txt.njk', 'robots.txt', { siteUrl });
   },
 };
