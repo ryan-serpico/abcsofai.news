@@ -1,0 +1,18 @@
+word: Pelicans on a Bicycle
+type: phrase
+definition_list:
+  - text: >-
+      An informal benchmark that asks AI models to generate a drawing of a pelican riding a bicycle — a task designed to test whether a model can translate an unusual, specific idea into a coherent image or piece of code. The test was created in 2024 by developer Simon Willison, who chose the prompt precisely because no such image was likely to exist in AI training data, making pattern-matching shortcuts useless.
+
+
+      For journalists covering AI capabilities, the _pelicans on a bicycle_ test offers a concrete and visually intuitive way to compare AI models. The task demands that a model understand the anatomy of both a bird and a machine, reason about how they would physically relate to each other in space, and render that understanding into a working output. When a model fails — producing a bicycle with no rider, a blob that resembles neither animal nor vehicle, or an image that simply ignores half the prompt — that failure is immediately visible to anyone, no technical background required.
+
+
+      The benchmark became surprisingly influential as a quick sanity check on new model releases, gaining enough visibility to be referenced in a Google I/O keynote and an Anthropic research paper. It sits alongside more formal [benchmarks](/benchmarks/) as evidence that official test scores don't always capture whether a model can handle creative, compositional, or spatially complex requests — the kinds of tasks that often trip up AI in the real world.
+    in_use:
+      - text: 'Willison said he "started my _pelicans on a bicycle_ benchmark as a joke, but it''s actually starting to become a bit useful," and predicted the test would continue to be useful for evaluating models for some time to come.'
+        source: GIGAZINE
+        url: https://gigazine.net/gsc_news/en/20250609-llms-pelicans-on-bicycles/
+      - text: 'The _pelican on a bicycle_ test "sounds ridiculous, but it actually tests spatial reasoning, anatomy knowledge, and whether AI can draw a bike frame — apparently very hard."'
+        source: News1
+        url: https://news1global.com/future/article/429609/

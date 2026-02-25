@@ -1,0 +1,18 @@
+word: Plan Mode
+type: noun
+definition_list:
+  - text: >-
+      A feature in AI coding assistants that separates thinking from doing: the AI first reads through your code, maps out what it intends to change, and presents a step-by-step plan for you to review — without touching a single file until you say go. Only after a human approves the blueprint does the tool move into execution.
+
+
+      For data reporters and newsroom developers, plan mode is a practical safeguard when using AI tools to build or modify code you depend on — a scraper that pulls court records, a script that cleans election data, or a pipeline that processes public records requests. Without it, an AI agent might barrel through a dozen files before you realize it misunderstood the task. With plan mode on, you can catch a wrong assumption before it becomes a broken workflow. Think of it as requiring the AI to show its work first. Widely used tools including Claude Code, GitHub Copilot, Cursor, and Windsurf all offer some version of this mode, triggered by a command or toggle in the interface.
+
+
+      Plan mode emerged alongside the broader rise of agentic coding tools in 2025, as AI assistants became capable enough to autonomously edit multiple files, run tests, and execute shell commands — raising the stakes for unreviewed actions. Related concepts include [context engineering](/context-engineering/) and [agent skills](/agent-skills/), which shape what an AI agent knows and how it approaches a task before the planning phase even begins.
+    in_use:
+      - text: 'Code Assist''s agents, which can be managed from a new Gemini Code Assist Kanban board, can generate work _plans_ and report step-by-step progress on job requests.'
+        source: TechCrunch
+        url: https://techcrunch.com/2025/04/09/gemini-code-assist-googles-ai-coding-assistant-gets-agentic-upgrades/
+      - text: '_Plan mode_ does not make any code changes until the plan is reviewed and approved by the user, and once the summary and steps are received, users can review it or hand it off to an agent for implementation.'
+        source: GitHub Changelog
+        url: https://github.blog/changelog/2025-11-18-plan-mode-in-github-copilot-now-in-public-preview-in-jetbrains-eclipse-and-xcode/

@@ -1,0 +1,18 @@
+word: Deep Research
+type: noun
+definition_list:
+  - text: >-
+      A mode or feature in AI tools like ChatGPT, Google Gemini, and Perplexity that autonomously browses dozens or hundreds of websites, reads the results, and produces a sourced report — all without the user having to perform each search manually. Where a standard chatbot answers instantly from memory, a deep research session can take five to thirty minutes as the AI works through the web the way a research assistant might.
+
+
+      For data reporters, deep research tools can accelerate the early stages of a story: mapping a regulatory landscape, compiling a timeline of corporate filings, or pulling together background on a public figure across multiple sources. The appeal is speed — tasks that might take a human researcher several hours can be completed in minutes. The risk is accuracy. OpenAI has acknowledged that its deep research agent "may struggle with distinguishing authoritative information from rumors" and shows "weakness in confidence calibration, often failing to convey uncertainty accurately." Every output should be treated as a starting point, not a finished product, and individual citations should be verified before publication. See also: [hallucination](/hallucination/).
+
+
+      OpenAI launched its deep research feature in February 2025, initially for its $200-per-month Pro tier. Google and Perplexity each introduced competing features under the same name within weeks. By mid-2025, all three companies had expanded access to lower-cost subscription tiers.
+    in_use:
+      - text: "OpenAI's new _deep research_ agent can \"find, analyze, and synthesize hundreds of online sources to create a comprehensive report at the level of a research analyst.\" It accomplishes in tens of minutes what would take a human many hours — but \"the onus remains on the user to reference and verify the information returned by the software.\""
+        source: The Register
+        url: https://www.theregister.com/2025/02/03/openai_unveils_deep_research_agent/
+      - text: "OpenAI announced on Tuesday that it's expanding access to _deep research_, its web browsing agent that creates thorough research reports, to all paying ChatGPT users."
+        source: TechCrunch
+        url: https://techcrunch.com/2025/02/25/openai-rolls-out-deep-research-to-paying-chatgpt-users/

@@ -1,0 +1,18 @@
+word: Subagents
+type: noun
+definition_list:
+  - text: >-
+      Specialized AI agents that are created and directed by a primary "orchestrator" agent to handle specific pieces of a larger task. Instead of one AI working through a complex job from start to finish, the orchestrator breaks the work into chunks and assigns each chunk to a subagent — which may run at the same time as other subagents, then report its results back.
+
+
+      For a data reporter, subagents are what make it possible for an AI to tackle a project too large or complex for a single model to handle alone. Imagine asking an AI to investigate public contracting records across 50 counties: an orchestrator agent might spin up 50 subagents simultaneously, each downloading and parsing one county's data, then pass all the results back for a summary analysis. Each subagent works with its own focused set of instructions and context, which keeps the work organized and limits how much any one agent can access — an approach that matters for security when the agents are touching sensitive documents or databases.
+
+
+      The concept is central to the fast-growing field of [agentic AI](/agent-skills/) — AI systems that can act autonomously over many steps. Anthropic made its subagent framework generally available in August 2025 as part of Claude Code, its AI coding tool. The pattern is closely related to [Model Context Protocol](/model-context-protocol/), which gives agents a standardized way to connect to outside data sources and tools that subagents can share.
+    in_use:
+      - text: 'The most notable addition to Opus 4.6 is "agent teams" — teams of agents that can split larger tasks into segmented jobs. The model breaks complex tasks into independent subtasks, runs tools and _subagents_ in parallel, and identifies blockers with real precision.'
+        source: TechCrunch
+        url: https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/
+      - text: 'Anthropic has recently made Claude Code _Subagents_ generally available, enabling developers to create independent, task-specific AI agents with their own context, tools, and prompts. Isolating context and enforcing least privilege aims to make AI-assisted development safer and more interpretable.'
+        source: InfoQ
+        url: https://www.infoq.com/news/2025/08/claude-code-subagents/

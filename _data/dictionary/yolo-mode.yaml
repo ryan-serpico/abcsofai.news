@@ -1,0 +1,18 @@
+word: YOLO Mode
+type: noun
+definition_list:
+  - text: >-
+      An informal term, borrowed from the internet slang "You Only Live Once," for running an AI coding agent in full autonomous mode — letting it execute commands, modify files, and install software without pausing to ask for human approval at each step. In tools like Cursor, it is a named feature in the settings. In Anthropic's Claude Code, the equivalent is the `--dangerously-skip-permissions` flag.
+
+
+      For a journalist experimenting with AI coding tools, YOLO mode is the difference between an AI that stops and asks "Are you sure you want to delete this file?" and one that just does it. That speed has real appeal for time-pressed tasks — say, letting an agent scrape a long list of government websites overnight, or automatically reformatting hundreds of data files for analysis. But it also means the agent can make irreversible changes without a human in the loop. Experts recommend running AI agents in YOLO mode only inside an isolated environment, such as a Docker container, where a runaway command cannot damage your actual system or expose sensitive files.
+
+
+      The term is popular shorthand in developer communities but has begun attracting attention from security researchers. Because YOLO mode removes the checkpoints that a human would normally review, it widens the attack surface for [prompt injection](/prompt-injection/) — a class of attack where malicious instructions hidden in a document or webpage can hijack what the agent does next. The broader question of whether AI systems should be trusted to act without oversight at each step connects to the ongoing debate over [alignment](/alignment/).
+    in_use:
+      - text: '_YOLO mode_, or auto-run, allows the Cursor agent to carry out multi-step coding tasks without human approval at every step.'
+        source: The Register
+        url: https://www.theregister.com/2025/07/21/cursor_ai_safeguards_easily_bypassed/
+      - text: '"We found no fewer than four ways for a compromised agent to bypass the Cursor denylist and execute unauthorized commands," the researchers said of _YOLO mode_.'
+        source: The Register
+        url: https://www.theregister.com/2025/07/21/cursor_ai_safeguards_easily_bypassed/

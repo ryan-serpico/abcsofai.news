@@ -1,0 +1,18 @@
+word: Prompt Engineering
+type: noun
+definition_list:
+  - text: >-
+      The practice of carefully crafting the instructions you give to an AI model — the text input, or "prompt" — to get better, more accurate, or more useful outputs. Just as a skilled interviewer learns to phrase questions to elicit useful answers, a prompt engineer learns to structure requests to a model so it understands exactly what is needed.
+
+
+      For journalists, prompt engineering is a practical skill with immediate newsroom applications. A reporter asking a chatbot to summarize a 200-page court document will get very different results depending on how that request is phrased — whether they specify the desired format, provide context about the case, or tell the model to flag any gaps in its knowledge. Prompt engineering encompasses those choices: setting a role ("act as an expert on municipal finance"), breaking complex tasks into steps, specifying output format (bullet list, table, narrative), and asking the model to explain its reasoning. Done well, it can help reporters analyze datasets, extract structured information from messy documents, draft interview questions, or check a story against source material.
+
+
+      The term emerged as a formal job title around 2022–2023, when companies began paying specialists to write and test the instructions that power AI products. Some technologists predicted the role would soon become obsolete as models grew better at understanding casual instructions, while others argued it would simply become a baseline skill expected of all knowledge workers. Prompt engineering is closely related to [context engineering](/context-engineering/), a broader discipline that addresses not just the wording of instructions but all the information loaded into a model's [context window](/context-window/) at each step of a task.
+    in_use:
+      - text: '"There aren''t many of us _prompt engineers_, and for a long time it really felt like it was just me," says Anna Bernstein, a 29-year-old who studied English in college and works at Copy.ai crafting the instructions behind the company''s generative AI tools.'
+        source: TIME
+        url: https://time.com/6272103/ai-prompt-engineer-job/
+      - text: '_Prompt engineering_ became a hot job last year in the AI industry, but it seems Anthropic is now developing tools to at least partially automate it.'
+        source: TechCrunch
+        url: https://techcrunch.com/2024/07/09/anthropics-claude-adds-a-prompt-playground-to-quickly-improve-your-ai-apps/

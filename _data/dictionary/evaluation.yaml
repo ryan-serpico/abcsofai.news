@@ -1,0 +1,18 @@
+word: Evaluation
+type: noun
+definition_list:
+  - text: >-
+      A standardized test used to measure how well an AI model performs on specific tasks. Researchers and AI companies run evaluations — often called "evals" — to compare models on everything from reading comprehension and math to coding and common-sense reasoning, similar to how standardized tests are used to compare students or schools.
+
+
+      For data reporters, evals matter in two practical ways. First, they're the main evidence AI companies cite when claiming their newest model is smarter or safer than the last one — so understanding what a given eval actually measures (and what it doesn't) is essential for covering AI progress critically. Second, safety evaluations are used to test for dangerous capabilities before a model is released to the public, including whether a model could help someone synthesize a biological weapon or autonomously hack into critical infrastructure. A reporter covering AI policy, biosecurity, or tech regulation will encounter evals constantly.
+
+
+      Evals have also become a flashpoint in debates about AI transparency. Critics argue that companies cherry-pick which tests to publish, that many benchmarks have significant methodological flaws, and that models can be inadvertently trained to score well on a test without actually improving at the underlying skill — a problem sometimes called "benchmark contamination." See also: [benchmarks](/benchmarks/) and [hallucination](/hallucination/).
+    in_use:
+      - text: 'To find out, systems are subjected to a range of tests — often called _evaluations_, or "evals" — designed to tease out their limits.'
+        source: TIME
+        url: https://time.com/7203729/ai-evaluations-safety/
+      - text: '"We are just at the very beginning of the scientific _evaluation_ of AI systems," said Adam Mahdi, a senior research fellow at the Oxford Internet Institute, whose team examined 445 leading AI benchmarks and found that roughly half failed to clearly define what they were measuring.'
+        source: NBC News
+        url: https://www.nbcnews.com/tech/tech-news/ai-chatgpt-test-smart-capabilities-may-exaggerated-flawed-study-rcna241969

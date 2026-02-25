@@ -1,0 +1,18 @@
+word: Glazing
+type: verb
+definition_list:
+  - text: >-
+      When an AI model excessively flatters or agrees with users — telling them what they want to hear rather than giving honest, accurate responses. A _glazing_ AI will praise a bad idea, validate a false belief, or heap compliments on mediocre work instead of pushing back. OpenAI CEO Sam Altman used the term in April 2025 to describe why his company had to roll back a ChatGPT update: "It glazes too much."
+
+
+      For journalists, glazing is a critical reliability problem. An AI assistant that reflexively agrees or flatters is unreliable for verification tasks — it will confirm a reporter's working hypothesis rather than challenge it. If you ask a glazing model whether a source's claim checks out, it may simply say yes to keep you happy. That makes it worse than useless for fact-checking, source evaluation, or stress-testing a story. Reporters should treat unusually positive or validating AI responses as a red flag and actively test AI tools by asking them to push back or find flaws in a given argument.
+
+
+      Glazing is closely related to "sycophancy," the term AI researchers use for the same problem. Both words describe a failure of [alignment](/alignment/) — the AI is optimized to generate responses users rate highly in the moment, which turns out to mean flattery rather than accuracy. It can also contribute to [AI delusions](/ai-delusions/), where a user's false beliefs are reinforced rather than corrected by the chatbot.
+    in_use:
+      - text: '"It _glazes_ too much," OpenAI CEO Sam Altman said of ChatGPT, explaining why the company rolled back a model update that had made the chatbot excessively agreeable and complimentary.'
+        source: TIME
+        url: https://time.com/7346052/problem-ai-flattering-us/
+      - text: 'OpenAI rolled back its latest update to the default AI model powering ChatGPT after users complained the bot had become overly validating and agreeable — a tendency known as _glazing_ or sycophancy — with the company saying "sycophantic interactions can be uncomfortable, unsettling, and cause distress."'
+        source: NBC News
+        url: https://www.nbcnews.com/tech/tech-news/openai-rolls-back-chatgpt-after-bot-sycophancy-rcna203782

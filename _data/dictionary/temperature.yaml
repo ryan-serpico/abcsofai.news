@@ -1,0 +1,18 @@
+word: Temperature
+type: noun
+definition_list:
+  - text: >-
+      A setting that controls how random or predictable an AI model's outputs are. When temperature is set low (close to zero), the model consistently picks the most probable next word, producing focused and reliable responses. When it is set high, the model reaches for less likely words, generating more varied and creative — but also less reliable — text.
+
+
+      For data reporters building AI-assisted tools, temperature is one of the most important knobs to turn. If you are using an AI to extract dates from court filings, classify thousands of public records, or convert messy PDFs into structured data, you want a low temperature so the model stays on task and avoids inventing answers. But if you are brainstorming headline ideas or drafting story summaries for a first-pass review, a higher temperature can surface phrasing you would not have chosen yourself. Most AI APIs, including OpenAI's, accept temperature as a number between zero and one — or sometimes up to two — and default to somewhere in the middle.
+
+
+      Temperature works at the same level as other output-shaping settings like top-p and top-k, which also influence which words a model considers before picking one. All of these settings are part of what engineers call [inference](/token/) parameters — the dials adjusted at the moment the model generates a response, rather than during training. A model that [hallucinates](/hallucination/) frequently at high temperature may behave far more reliably when that number is dialed down.
+    in_use:
+      - text: '_Temperature_ is a parameter that acts as a kind of creativity dial. It influences the model''s choice of what word comes next. These parameters affect how the model comes across — quirky and creative versus trustworthy and dull.'
+        source: MIT Technology Review
+        url: https://www.technologyreview.com/2026/01/07/1130795/what-even-is-a-parameter/
+      - text: 'The _temperature_ parameter can be used to push the model to choose the most probable next word, making its output more factual and relevant, or a less probable word, making the output more surprising and less robotic.'
+        source: MIT Technology Review
+        url: https://www.technologyreview.com/2026/01/07/1130795/what-even-is-a-parameter/

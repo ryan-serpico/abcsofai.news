@@ -1,0 +1,18 @@
+word: Grounding
+type: noun
+definition_list:
+  - text: >-
+      The practice of connecting an AI model's responses to real, verifiable information — such as a live database, a set of documents, or a search index — rather than relying solely on what it learned during training. A "grounded" AI checks its answers against actual sources before responding, which makes its outputs more reliable and easier to fact-check.
+
+
+      For data reporters, grounding is the difference between an AI assistant that makes things up and one that cites its work. Imagine uploading a year's worth of city council meeting minutes and asking an AI to summarize every vote on housing policy: without grounding, the model might hallucinate votes that never happened. With grounding, it is constrained to the documents you provided, and every claim it makes can be traced back to a specific page. The same principle applies to building a chatbot that answers questions about your publication's archives, or a tool that cross-references campaign finance disclosures against a database of federal contractors.
+
+
+      Retrieval-augmented generation, commonly called RAG, is the most widely used technical approach to grounding. Instead of asking a model to answer from memory, a RAG system first searches a database for relevant documents, then feeds those documents into the model's [context window](/context-window/) along with the question. The technique is closely related to [embeddings](/embeddings/), which are used to find the most relevant chunks of text to retrieve. Grounding is also a key strategy for reducing [hallucinations](/hallucination/): when a model is anchored to a specific set of sources, it has less opportunity to invent facts.
+    in_use:
+      - text: 'The newspaper is alleging copyright infringement and calling out Perplexity''s retrieval augmented generation (RAG) as a culprit. RAG is a method used to limit hallucinations by having the model only use an accurate or verified data source. The Tribune argues that Perplexity is using the newspaper''s content in its _grounding_ systems, scraped without permission.'
+        source: TechCrunch
+        url: https://techcrunch.com/2025/12/04/chicago-tribune-sues-perplexity/
+      - text: 'Starting today, developers using Google''s Gemini API and its Google AI Studio to build AI-based services and bots will be able to _ground_ their prompts'' results with data from Google Search. This should enable more accurate responses based on fresher data.'
+        source: TechCrunch
+        url: https://techcrunch.com/2024/10/31/googles-gemini-api-and-ai-studio-get-grounding-with-google-search/
