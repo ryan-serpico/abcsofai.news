@@ -1,0 +1,21 @@
+word: Token
+type: noun
+definition_list:
+  - text: >-
+      The smallest unit of text that an AI language model reads and generates. Before a model processes any input, it breaks the text into tokens — chunks that might be a whole word, part of a word, or even a single character. The word "darkness," for example, becomes two tokens: "dark" and "ness." Every interaction with a chatbot, from your prompt to its reply, is measured in tokens.
+
+
+      Tokens matter for data reporters in two practical ways. First, they're how AI companies charge for API access: prices are quoted per million tokens, so understanding token counts helps you budget when you're using an AI service to, say, summarize thousands of public records or extract data from court filings. Second, tokens determine how much text a model can handle at once — its [context window](/context-window/). A model with a one-million-token context window can process roughly 750,000 words in a single prompt, enough to hold an entire book or a year's worth of city council minutes.
+
+
+      Because models see tokens rather than letters, they can stumble on tasks that seem simple to humans — like counting the r's in "strawberry" or doing arithmetic — since a number like "380" might be one token while "381" is split into two. This quirk is worth keeping in mind when asking an AI to work with structured data where precision matters.
+    in_use:
+      - text: "_Tokens_ are the basic units of text that LLMs process, typically representing words or parts of words."
+        source: IEEE Spectrum
+        url: https://spectrum.ieee.org/ai-context-window
+      - text: "For prompts up to 200,000 _tokens_, Gemini 2.5 Pro costs $1.25 per million input _tokens_ (roughly 750,000 words, longer than the entire 'Lord of The Rings' series) and $10 per million output _tokens_."
+        source: TechCrunch
+        url: https://techcrunch.com/2025/04/04/gemini-2-5-pro-is-googles-most-expensive-ai-model-yet/
+      - text: "This compact, open-source model can handle massive context windows of 250,000 _tokens_ (meaning that it can 'remember' and reason over much more text than typical language models) and can run at high speed, even on consumer devices."
+        source: IEEE Spectrum
+        url: https://spectrum.ieee.org/small-language-models
