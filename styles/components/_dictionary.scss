@@ -83,8 +83,8 @@
   top: var(--site-chrome-offset, 78px);
   z-index: 99;
   background: colors.$white;
-  padding: spacing.$space-3 0;
-  margin: 0;
+  padding: spacing.$space-3 12px;
+  margin: 0 -12px;
 
   .search--wrapper {
     position: relative;
