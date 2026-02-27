@@ -1,6 +1,7 @@
 word: Benchmarks
 type: noun
 author: Jon Keegan
+last_updated: "Last updated: Feb. 26, 2026"
 definition_list:
   - text:  >- 
         Benchmarks are tools used to measure the capabilities of AI models. Some test general knowledge, while others are specialized for specific purposes and domains, such as coding, medicine, finance, and law.
@@ -15,19 +16,22 @@ definition_list:
         Benchmarks are made by independent researchers, AI labs, companies and some government agencies. The lack of official industry-wide standards for these tests makes true, fair comparisons between models difficult.
 
 
+        Journalists should read the research papers on how these benchmarks were built, what source material they used, and what a high score really indicates. It is also important to understand who built the benchmarks, and if a company is measuring itself [by its own yardsticks](https://themarkup.org/artificial-intelligence/2024/07/17/everyone-is-judging-ai-by-these-tests-but-experts-say-theyre-close-to-meaningless).  
+
+
         Some popular benchmarks:
           | Benchmark | Description |
           | :--- | :--- |
           | [Humanity's Last Exam (HLE)](https://agi.safe.ai/) | A multimodal benchmark at the frontier of human knowledge, designed to be the final closed-ended academic benchmark of its kind with broad subject coverage. |
           | [ARC-AGI](https://arcprize.org/arc-agi) | A reasoning test of abstract visual puzzles designed to be "easy for humans, hard for AI," and structured to avoid reliance on memorized training knowledge. |
           | [SWE-bench Pro](https://scale.com/leaderboard/swe_bench_pro_public) | A rigorous, realistic evaluation of AI agents for software engineering, measuring model performance on real-world coding tasks. |
-          | [BrowseComp](https://openai.com/index/browsecomp/) | A benchmark for web browsing that is challenging for models and easy to verify, measuring an AI model’s ability to find information through web search. |
+          | [BrowseComp](https://openai.com/index/browsecomp/) | A benchmark for web browsing that is challenging for models and easy to verify, measuring an AI model's ability to find information through web search. |
           | [MMMU-Pro](https://arxiv.org/abs/2409.02813) | A multimodal benchmark testing expert-level knowledge across many topics, requiring interpretation of text alongside images, diagrams, maps, and scientific figures. |
 
     in_use:
       - text: "While imperfect, the industry has embraced the use of '_benchmarks_' — tests designed to measure an AI model's knowledge and reasoning ability."
         source: Sherwood News
         url: https://sherwood.news/tech/openais-arc-de-triumph/
-      - text: "AI companies are quick to boast about how well their new model tested on different _benchmarks_, using them as proof of progress."
-        source: Sherwood News
-        url: https://sherwood.news/tech/openais-arc-de-triumph/
+      - text: "The rapid pace of AI product releases — and a lack of governmental oversight — increases the likelihood that tech companies continue to use the same _benchmarks_, regardless of their shortcomings. "
+        source: The Markup
+        url: https://themarkup.org/artificial-intelligence/2024/07/17/everyone-is-judging-ai-by-these-tests-but-experts-say-theyre-close-to-meaningless

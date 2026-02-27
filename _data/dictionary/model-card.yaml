@@ -1,0 +1,36 @@
+word: Model card / system card
+type: noun
+author: Jon Keegan
+last_updated: "Last updated: Feb. 26, 2026"
+definition_list:
+  - text:  >- 
+  
+      When new AI models are released, it is customary to include a "model card" or "system card" that describes the model's capabilities, how the model was trained, how the model was tested for safety, and any unique risks that the model may present. Publishing a robust and honest model card is an important act of transparency, even if it highlights alarming risks or limitations.
+
+
+      These documents can get technical, but they are usually pretty accessible and contain important information. Journalists can find fascinating details in a model card, and when a new model drops, it's always worth a read. 
+
+
+      Details about how model makers "[red team](https://sherwood.news/tech/ai-regulation-red-teaming-model-safety-checks/)" new models can be especially revealing, including examples of safety failures and the steps the company has taken to reduce potential harms.
+
+
+      Example model cards: 
+
+      - [Anthropic: Claude Sonnet 4.6 system card](https://anthropic.com/claude-sonnet-4-6-system-card)
+
+      - [OpenAI: GPT‑5.2 system card](https://cdn.openai.com/pdf/3a4153c8-c748-4b71-8e31-aecbde944f8d/oai_5_2_system-card.pdf)
+
+      - [Google: Gemini 3 Pro model card](https://deepmind.google/models/model-cards/gemini-3-pro/)
+
+    in_use:
+      - text: "'Our evaluations found that o1-preview and o1-mini can help experts with the operational planning of reproducing a known biological threat, which meets our medium risk threshold,' the _system card_ reports."
+        source: Sherwood News
+        url: https://sherwood.news/tech/how-risky-are-openais-new-o1-models/
+      - text: "In the model's _system card_, OpenAI details how well the new 5.1 models compare to the earlier 5.0  models on internal  benchmarks for disallowed content.
+
+
+      The company has said it is prioritizing the addition of new checks to help users who may be suffering a mental health crisis, after a series of alarming incidents where ChatGPT encouraged self-harm and reinforced delusional behavior."
+
+        source: Sherwood News
+        url: https://sherwood.news/tech/how-risky-are-openais-new-o1-models/
+    

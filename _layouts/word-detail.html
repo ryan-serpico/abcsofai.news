@@ -37,7 +37,10 @@
       {% endfor %}
     {% endfor %}
     {% if obj.author %}
-      <div class="detail--author">Entry by {{ obj.author }}</div>
+      <div class="detail--author">
+        Entry by {{ obj.author }}
+        {% if obj.last_updated %} &middot; {{ obj.last_updated }}{% endif %}
+      </div>
     {% endif %}
   </div>
 

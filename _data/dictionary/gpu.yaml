@@ -1,0 +1,28 @@
+word: Graphics Processing Unit (GPU)
+type: noun
+author: Jon Keegan
+last_updated: "Last updated: Feb. 26, 2026"
+definition_list:
+  - text:  >- 
+  
+      Graphics Processing Units (GPUs) are the key piece of computing hardware that are powering today’s generative AI boom. Pioneered by market leader Nvidia, the GPU was originally designed for 3D gaming. The specialized vectorized math that graphics processors excel at for games also happens to be perfect for powering today’s AI models. 
+
+
+      You can’t talk about GPUs without talking about Nvidia. Nvidia’s GPUs can be found in almost every data center, and companies have been [hoarding](https://sherwood.news/tech/companies-hoarding-nvidia-gpu-chips-meta-tesla/) these expensive processors to power their ambitious plans for [larger and larger data centers](https://sherwood.news/tech/clash-of-the-titans-here-are-the-biggest-ai-data-center-projects/). 
+      
+      
+      The company’s [ubiquitous hardware](https://sherwood.news/tech/hoppers-blackwells-and-rubins-a-field-guide-to-the-complicated-world-of/) and popular software tools places it in a unique position at the center of this fast-evolving industry. Hundreds of billions of dollars in circular deals connect the biggest players in AI, cloud computing, and data centers. 
+
+
+      Journalists should understand the key role that this specialized hardware plays in the business of AI, but also how it touches on trade, [export controls](https://sherwood.news/tech/the-trillion-dollar-mystery-surrounding-deepseeks-nvidia-gpus/), and national security.  
+
+    in_use:
+      - text: "The H100 is estimated to cost between $20,000 and $40,000 meaning that Meta used up to $640 million worth of hardware to train the model. And that's just a small slice of the Nvidia hardware Meta has been stockpiling. Earlier this year, Meta said that it was aiming to have a stash of 350,000 H100s in its AI training infrastructure – which adds up to over $10 billion worth of the specialized Nvidia chips. "
+        source: Sherwood News
+        url: https://sherwood.news/tech/companies-hoarding-nvidia-gpu-chips-meta-tesla/
+    
+      - text: "DeepSeek said that its V3 model — the one that captured global attention earlier this year — was trained using Nvidia's H800 _GPUs_, but some observers in the AI industry argued that the startup likely had access to more advanced compute. The White House and the FBI reportedly investigated this amid signs of chip smuggling."
+
+        source: Sherwood News
+        url: https://sherwood.news/markets/chinas-deepseek-is-using-banned-blackwell-chips-to-train-its-newest-ai-model/
+    
