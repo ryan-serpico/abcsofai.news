@@ -1,5 +1,6 @@
 word: Pelicans on a Bicycle
 type: phrase
+author: Ryan Serpico
 definition_list:
   - text: >-
       An informal benchmark that asks AI models to generate a drawing of a pelican riding a bicycle — a task designed to test whether a model can translate an unusual, specific idea into a coherent image or piece of code. The test was created in 2024 by developer Simon Willison, who chose the prompt precisely because no such image was likely to exist in AI training data, making pattern-matching shortcuts useless.

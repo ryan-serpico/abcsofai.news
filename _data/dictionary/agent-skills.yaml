@@ -1,5 +1,6 @@
 word: Agent Skills
 type: noun
+author: Ryan Serpico
 definition_list:
   - text: >-
       Instruction files that teach an AI agent *how* to do a specific task — like generating financial reports in your company's format, reviewing legal contracts, or building a web scraper. Each skill is a small package of step-by-step instructions and resources that the agent loads only when it needs them.
@@ -10,6 +11,6 @@ definition_list:
 
       The format was originally developed by Anthropic for Claude Code and released as an open standard. It has since been adopted by other AI tools including GitHub Copilot, Cursor, and OpenAI's Codex.
     in_use:
-      - text: "Each plug-in includes basic _skills_ common across different companies, although Anthropic expects that companies will modify each plug-in to bring it in line with unique needs and customs."
+      - text: 'Each plug-in includes basic _skills_ common across different companies, although Anthropic expects that companies will modify each plug-in to bring it in line with unique needs and customs.'
         source: TechCrunch
         url: https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/

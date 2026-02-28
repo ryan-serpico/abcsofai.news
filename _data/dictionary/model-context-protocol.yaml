@@ -1,5 +1,6 @@
 word: Model Context Protocol
 type: noun
+author: Ryan Serpico
 definition_list:
   - text: >-
       An open-source standard created by Anthropic that gives AI models a universal way to connect to outside data sources and tools. Since its 2024 launch, it has been adopted by rivals including OpenAI and Google, and in 2025 was donated to the Linux Foundation.

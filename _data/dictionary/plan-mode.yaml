@@ -1,5 +1,6 @@
 word: Plan Mode
 type: noun
+author: Ryan Serpico
 definition_list:
   - text: >-
       A feature in AI coding assistants that separates thinking from doing: the AI first reads through your code, maps out what it intends to change, and presents a step-by-step plan for you to review — without touching a single file until you say go. Only after a human approves the blueprint does the tool move into execution.

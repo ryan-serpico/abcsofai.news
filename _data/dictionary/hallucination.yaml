@@ -1,5 +1,6 @@
 word: Hallucination
 type: noun
+author: Ryan Serpico
 definition_list:
   - text: When an AI system confidently generates information that is factually incorrect or entirely made up. Chatbots and other AI tools can _hallucinate_ anything from fake legal citations to false biographical details about real people.
     in_use:

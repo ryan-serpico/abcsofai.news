@@ -1,5 +1,6 @@
 word: Agentic AI
 type: noun
+author: Ryan Serpico
 definition_list:
   - text: >-
       AI systems designed to take actions on a user's behalf over many steps, not just answer questions. An agentic system can make a plan, use tools (like a browser or code), check its work, and keep going until it reaches a goal.

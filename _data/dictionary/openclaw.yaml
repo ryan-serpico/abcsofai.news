@@ -1,5 +1,6 @@
 word: OpenClaw
 type: noun
+author: Ryan Serpico
 definition_list:
   - text: >-
       A free, open-source AI agent created by Austrian developer Peter Steinberger that runs on a user's own computer and carries out real-world tasks — managing email, browsing the web, scheduling calendar events — controlled through messaging apps like WhatsApp, Telegram, and Slack. Originally called Clawdbot, then Moltbot, it gained viral popularity in early 2026 and amassed hundreds of thousands of users before Steinberger announced he was joining OpenAI and moving the project to an independent foundation.
