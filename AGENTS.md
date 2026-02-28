@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 AI Glossary for Journalists is a free, open-source glossary of AI terms for journalists, built for the NICAR 2026 session. It's a fork of [moneyinpolitics.wtf](https://github.com/palewire/moneyinpolitics.wtf) adapted for AI concepts.
 
+It is built by Ryan Serpico, Jon Keegan and Libby Seline.
+
 Live site: [aiglossary.news](https://aiglossary.news/)
 
 ## Commands

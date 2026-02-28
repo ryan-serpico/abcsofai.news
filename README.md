@@ -1,6 +1,6 @@
 # AI Glossary for Journalists
 
-A free, open-source glossary of AI terms and concepts for journalists. Built as supplementary material for the **"AI concepts you should know"** session at [NICAR 2026](https://www.ire.org/training/conferences/nicar-2026/) in Indianapolis (March 5-8, 2026).
+A free, open-source glossary of AI terms and concepts for journalists. Built as supplementary material for the **"AI concepts you should know"** session at [NICAR 2026](https://www.ire.org/training/conferences/nicar-2026/) in Indianapolis (March 5-8, 2026) by Ryan Serpico, Jon Keegan and Libby Seline.
 
 ### Standing on the shoulders of open source
 
@@ -34,15 +34,19 @@ This project is in its early stages. We are currently building out the glossary 
 
 1. Make sure you have [Node.js](https://nodejs.org/) installed.
 2. Clone the repo and install dependencies:
+
    ```sh
    git clone https://github.com/ryan-serpico/aiglossary.news.git
    cd aiglossary.news
    npm install
    ```
+
 3. Start the development server:
+
    ```sh
    npm start
    ```
+
 4. Open [localhost:3000](http://localhost:3000) in your browser. The site will automatically reload when you make changes.
 
 ### Links
