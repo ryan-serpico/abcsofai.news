@@ -44,6 +44,25 @@
     margin: spacing.$space-1 0 0 0;
   }
 
+  .detail--tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: spacing.$space-2;
+    margin: spacing.$space-2 0 0 0;
+  }
+
+  .detail--tag {
+    display: inline-block;
+    font-family: fonts.$font-family-mono;
+    font-size: 13px;
+    font-weight: 400;
+    color: colors.$dark-gray;
+    background: colors.$off-white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
+  }
+
   .detail--divider {
     border: none;
     border-top: 1px solid colors.$gray;

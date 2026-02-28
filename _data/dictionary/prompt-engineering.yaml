@@ -1,6 +1,8 @@
 word: Prompt Engineering
 type: noun
 author: Ryan Serpico
+tags:
+  - Using AI as a tool
 definition_list:
   - text: >-
       The practice of carefully crafting the instructions you give to an AI model — the text input, or "prompt" — to get better, more accurate, or more useful outputs. Just as a skilled interviewer learns to phrase questions to elicit useful answers, a prompt engineer learns to structure requests to a model so it understands exactly what is needed.

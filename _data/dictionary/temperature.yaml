@@ -1,6 +1,9 @@
 word: Temperature
 type: noun
 author: Ryan Serpico
+tags:
+  - Foundational concepts
+  - Using AI as a tool
 definition_list:
   - text: >-
       A setting that controls how random or predictable an AI model's outputs are. When temperature is set low (close to zero), the model consistently picks the most probable next word, producing focused and reliable responses. When it is set high, the model reaches for less likely words, generating more varied and creative — but also less reliable — text.

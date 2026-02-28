@@ -16,6 +16,13 @@
 
   <h2 class="detail--word">{{ obj.word }}</h2>
   <div class="detail--type">{{ obj.type }}</div>
+  {% if obj.tags %}
+    <div class="detail--tags">
+      {% for tag in obj.tags %}
+        <span class="detail--tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
   <hr class="detail--divider" />
 
   <div class="detail--definitions">

@@ -1,6 +1,8 @@
 word: AI Coding Agent
 type: noun
 author: Ryan Serpico
+tags:
+  - Using AI as a tool
 definition_list:
   - text: >-
       An AI system that can do software work in multiple steps — reading a codebase, writing or editing files, running commands, and checking results — to complete a programming task. Unlike a basic autocomplete tool, a coding agent is meant to take action and iterate until it reaches a goal, often with some human approvals along the way.

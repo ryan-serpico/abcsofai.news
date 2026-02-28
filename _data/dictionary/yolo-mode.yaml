@@ -1,6 +1,8 @@
 word: YOLO Mode
 type: noun
 author: Ryan Serpico
+tags:
+  - Using AI as a tool
 definition_list:
   - text: >-
       An informal term, borrowed from the internet slang "You Only Live Once," for running an AI coding agent in full autonomous mode — letting it execute commands, modify files, and install software without pausing to ask for human approval at each step. In tools like Cursor, it is a named feature in the settings. In Anthropic's Claude Code, the equivalent is the `--dangerously-skip-permissions` flag.
