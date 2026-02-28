@@ -1,4 +1,4 @@
-# The ABCs of AI
+# AI Glossary for Journalists
 
 A free, open-source glossary of AI terms and concepts for journalists. Built as supplementary material for the **"AI concepts you should know"** session at [NICAR 2026](https://www.ire.org/training/conferences/nicar-2026/) in Indianapolis (March 5-8, 2026).
 

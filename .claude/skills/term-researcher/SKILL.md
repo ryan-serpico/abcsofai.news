@@ -1,12 +1,12 @@
 ---
 name: term-researcher
-description: Research AI terms and create glossary entries for the ABCs of AI. Searches news articles from quality publications, extracts quotes showing the term in context, and generates YAML dictionary files.
+description: Research AI terms and create glossary entries for the AI Glossary for Journalists. Searches news articles from quality publications, extracts quotes showing the term in context, and generates YAML dictionary files.
 argument-hint: '[ai-term]'
 ---
 
 # Term Researcher
 
-Research an AI term and create a dictionary entry for the ABCs of AI glossary.
+Research an AI term and create a dictionary entry for the AI Glossary for Journalists glossary.
 
 ## Your Task
 
