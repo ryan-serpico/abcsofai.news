@@ -1,6 +1,9 @@
 word: Agents
 type: noun
 author: Ryan Serpico
+tags:
+  - Foundational concepts
+  - Using AI as a tool
 definition_list:
   - text: >-
       AI systems that can take actions in the real world — not just generate text. Unlike the chatbots that first made headlines in 2022, agents can use tools: they can browse the web, send messages, write and run code, read and create files, and interact with databases and APIs. Crucially, the agent itself decides which tools to use and in what order, adapting its approach as it goes.

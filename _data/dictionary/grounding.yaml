@@ -1,6 +1,9 @@
 word: Grounding
 type: noun
 author: Ryan Serpico
+tags:
+  - Foundational concepts
+  - Using AI as a tool
 definition_list:
   - text: >-
       The practice of connecting an AI model's responses to real, verifiable information — such as a live database, a set of documents, or a search index — rather than relying solely on what it learned during training. A "grounded" AI checks its answers against actual sources before responding, which makes its outputs more reliable and easier to fact-check.

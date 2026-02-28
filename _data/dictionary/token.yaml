@@ -1,6 +1,8 @@
 word: Token
 type: noun
 author: Ryan Serpico
+tags:
+  - Foundational concepts
 definition_list:
   - text: >-
       The smallest unit of text that an AI language model reads and generates. Before a model processes any input, it breaks the text into tokens — chunks that might be a whole word, part of a word, or even a single character. The word "darkness," for example, becomes two tokens: "dark" and "ness." Every interaction with a chatbot, from your prompt to its reply, is measured in tokens.

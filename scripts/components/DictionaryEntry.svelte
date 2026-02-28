@@ -16,6 +16,8 @@
   export let type;
   /** @type {Array<any>} */
   export let definitionList;
+  /** @type {Array<string>} */
+  export let tags = [];
 
   const getPrimaryDefinitionHtml = (arr) => {
     if (arr.length > 0) {
@@ -32,6 +34,9 @@
   <div class="entry--headline">
     <span class="entry--word">{word}</span>
     <span class="entry--type">{type}</span>
+    {#each tags as tag}
+      <span class="entry--tag">{tag}</span>
+    {/each}
   </div>
   <div class="entry--definition">
     {#if definitionList.length > 1}<sup>1</sup>{/if}

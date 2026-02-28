@@ -1,6 +1,8 @@
 word: The lethal trifecta
 type: noun
 author: Ryan Serpico
+tags:
+  - Reporting on AI
 definition_list:
   - text: A dangerous combination of three AI agent capabilities that, when combined, allow an attacker to steal private data — access to private data, exposure to untrusted content, and the ability to externally communicate.
     in_use:

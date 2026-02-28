@@ -1,6 +1,8 @@
 word: Ralph Wiggum
 type: noun
 author: Ryan Serpico
+tags:
+  - Using AI as a tool
 definition_list:
   - text: A technique for AI-assisted coding where an AI agent is run in a loop, feeding its own output and errors back into itself until it produces a working result. Named after the haplessly persistent Simpsons character, the approach treats brute-force repetition as a substitute for getting it right the first time.
     in_use:

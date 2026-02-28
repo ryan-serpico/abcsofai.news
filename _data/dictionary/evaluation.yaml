@@ -1,6 +1,8 @@
 word: Evaluation
 type: noun
 author: Ryan Serpico
+tags:
+  - Reporting on AI
 definition_list:
   - text: >-
       A standardized test used to measure how well an AI model performs on specific tasks. Researchers and AI companies run evaluations — often called "evals" — to compare models on everything from reading comprehension and math to coding and common-sense reasoning, similar to how standardized tests are used to compare students or schools.

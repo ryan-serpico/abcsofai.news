@@ -1,6 +1,8 @@
 word: Glazing
 type: verb
 author: Ryan Serpico
+tags:
+  - Reporting on AI
 definition_list:
   - text: >-
       When an AI model excessively flatters or agrees with users — telling them what they want to hear rather than giving honest, accurate responses. A _glazing_ AI will praise a bad idea, validate a false belief, or heap compliments on mediocre work instead of pushing back. OpenAI CEO Sam Altman used the term in April 2025 to describe why his company had to roll back a ChatGPT update: "It glazes too much."

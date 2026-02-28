@@ -1,6 +1,9 @@
 word: Prompt Injection
 type: noun
 author: Ryan Serpico
+tags:
+  - Foundational concepts
+  - Reporting on AI
 definition_list:
   - text: >-
       A cyberattack on AI systems where malicious instructions are hidden inside content the AI reads — such as a webpage, email, or document — tricking it into abandoning its original instructions and doing the attacker's bidding instead.

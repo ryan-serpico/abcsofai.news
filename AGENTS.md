@@ -46,6 +46,9 @@ There are no test commands configured.
 ```yaml
 word: machine learning
 type: noun
+tags:
+  - Foundational concepts
+  - Using AI as a tool
 definition_list:
   - text: plain language definition with [markdown](links)
     in_use:
@@ -53,6 +56,8 @@ definition_list:
         source: Publication Name
         url: https://source-url.com
 ```
+
+Tags are optional. Valid values: `Foundational concepts`, `Reporting on AI`, `Using AI as a tool`. A term can have multiple tags.
 
 File naming: lowercase, hyphens for spaces (e.g., `machine-learning.yaml`).
 

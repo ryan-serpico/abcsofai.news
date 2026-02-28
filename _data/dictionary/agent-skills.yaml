@@ -1,6 +1,8 @@
 word: Agent Skills
 type: noun
 author: Ryan Serpico
+tags:
+  - Using AI as a tool
 definition_list:
   - text: >-
       Instruction files that teach an AI agent *how* to do a specific task — like generating financial reports in your company's format, reviewing legal contracts, or building a web scraper. Each skill is a small package of step-by-step instructions and resources that the agent loads only when it needs them.

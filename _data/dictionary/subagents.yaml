@@ -1,6 +1,9 @@
 word: Subagents
 type: noun
 author: Ryan Serpico
+tags:
+  - Foundational concepts
+  - Using AI as a tool
 definition_list:
   - text: >-
       Specialized AI agents that are created and directed by a primary "orchestrator" agent to handle specific pieces of a larger task. Instead of one AI working through a complex job from start to finish, the orchestrator breaks the work into chunks and assigns each chunk to a subagent — which may run at the same time as other subagents, then report its results back.

@@ -1,6 +1,8 @@
 word: Deep Research
 type: noun
 author: Ryan Serpico
+tags:
+  - Using AI as a tool
 definition_list:
   - text: >-
       A mode or feature in AI tools like ChatGPT, Google Gemini, and Perplexity that autonomously browses dozens or hundreds of websites, reads the results, and produces a sourced report — all without the user having to perform each search manually. Where a standard chatbot answers instantly from memory, a deep research session can take five to thirty minutes as the AI works through the web the way a research assistant might.

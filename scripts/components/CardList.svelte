@@ -24,16 +24,41 @@
 
   const term = writable('');
   const items = writable(dictionary);
+  const selectedTags = writable([]);
+
+  // Extract all unique tags from dictionary data
+  const allTags = [...new Set(dictionary.flatMap(d => d.tags || []))].sort();
+
+  function toggleTag(tag) {
+    selectedTags.update(tags => {
+      if (tags.includes(tag)) {
+        return tags.filter(t => t !== tag);
+      } else {
+        return [...tags, tag];
+      }
+    });
+  }
 
   const filtered = derived(
-    [term, items],
-    ([$term, $items]) => {
-      if (!$term) return $items;
-      const q = $term.toLowerCase();
-      return $items.filter((x) =>
-        x.word.toLowerCase().includes(q) ||
-        x.definition_list.some((d) => d.text.toLowerCase().includes(q))
-      );
+    [term, items, selectedTags],
+    ([$term, $items, $selectedTags]) => {
+      let result = $items;
+
+      if ($term) {
+        const q = $term.toLowerCase();
+        result = result.filter((x) =>
+          x.word.toLowerCase().includes(q) ||
+          x.definition_list.some((d) => d.text.toLowerCase().includes(q))
+        );
+      }
+
+      if ($selectedTags.length > 0) {
+        result = result.filter((x) =>
+          (x.tags || []).some((t) => $selectedTags.includes(t))
+        );
+      }
+
+      return result;
     }
   );
 
@@ -59,7 +84,7 @@
 
   $: term.set(val);
   $: hide =
-    ($filtered.length == 0 || $filtered.length == $items.length) &&
+    ($filtered.length == 0 || ($filtered.length == $items.length && $selectedTags.length === 0)) &&
     !displayAll;
   $: {
     if ($term) {
@@ -98,7 +123,7 @@
   </div>
 </div>
 
-{#if !$term}
+{#if !$term && $selectedTags.length === 0}
   <WordOfTheDay {dictionary} />
 {/if}
 
@@ -112,6 +137,20 @@
   </div>
 </div>
 
+{#if allTags.length > 0}
+  <div class="tag-filters">
+    {#each allTags as tag}
+      <button
+        class="tag-filter"
+        class:active={$selectedTags.includes(tag)}
+        on:click={() => toggleTag(tag)}
+      >
+        {tag}
+      </button>
+    {/each}
+  </div>
+{/if}
+
 <div class="dictionary-list {hide ? 'display-none' : ''}">
   {#each $grouped as group, groupIdx}
     <LetterGroup letter={group.letter} />
@@ -120,6 +159,7 @@
         word={obj.word}
         type={obj.type}
         definitionList={obj.definition_list}
+        tags={obj.tags || []}
       />
     {/each}
   {/each}

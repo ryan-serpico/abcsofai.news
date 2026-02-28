@@ -1,6 +1,9 @@
 word: Embeddings
 type: noun
 author: Ryan Serpico
+tags:
+  - Foundational concepts
+  - Using AI as a tool
 definition_list:
   - text: >-
       Numerical representations of text that capture its meaning. An embedding model converts words, sentences, or entire documents into lists of numbers — called vectors — arranged so that similar meanings end up with similar values. The word "president" and the word "governor," for example, would sit close together in this number space, while "president" and "sandwich" would be far apart.

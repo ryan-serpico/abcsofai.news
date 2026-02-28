@@ -1,6 +1,9 @@
 word: Context Engineering
 type: noun
 author: Ryan Serpico
+tags:
+  - Foundational concepts
+  - Using AI as a tool
 definition_list:
   - text: >-
       The practice of selecting and organizing all the information fed to an AI model — instructions, tools, conversation history, external data — to get the best possible results. Where prompt engineering focuses on writing a good set of instructions, context engineering is the broader discipline of deciding what goes into a model's limited [context window](/context-window/) at every step of a task.

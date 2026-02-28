@@ -1,6 +1,9 @@
 word: Context Window
 type: noun
 author: Ryan Serpico
+tags:
+  - Foundational concepts
+  - Using AI as a tool
 definition_list:
   - text: >-
       The maximum amount of text an AI model can read and reference at once when generating a response. Think of it as the model's working memory — anything that fits inside the context window can inform the answer, but anything outside it is effectively invisible. Context windows are measured in [tokens](/token/), which roughly correspond to words or word fragments.

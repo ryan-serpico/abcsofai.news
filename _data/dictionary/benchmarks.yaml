@@ -2,6 +2,8 @@ word: Benchmarks
 type: noun
 author: Jon Keegan
 last_updated: "Last updated: Feb. 26, 2026"
+tags:
+  - Reporting on AI
 definition_list:
   - text:  >- 
         Benchmarks are tools used to measure the capabilities of AI models. Some test general knowledge, while others are specialized for specific purposes and domains, such as coding, medicine, finance, and law.
