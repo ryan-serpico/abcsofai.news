@@ -1,0 +1,22 @@
+word: Agents
+type: noun
+author: Ryan Serpico
+definition_list:
+  - text: >-
+      AI systems that can take actions in the real world — not just generate text. Unlike the chatbots that first made headlines in 2022, agents can use tools: they can browse the web, send messages, write and run code, read and create files, and interact with databases and APIs. Crucially, the agent itself decides which tools to use and in what order, adapting its approach as it goes.
+
+
+      When LLM-powered chatbots like ChatGPT first arrived, users could have impressive conversations and get surprisingly useful answers, but the AI was confined to the chat window. It couldn't do anything outside of that text box. Agents changed this by giving language models access to tools — software that translates the model's text outputs into real-world actions. OpenAI's Operator, for example, can take control of a web browser to order groceries or make dinner reservations, while Anthropic's Claude Code can access files on your computer and spawn [subagents](/subagents/) to work on pieces of a task simultaneously.
+
+
+      For data reporters, agents open the door to automating multi-step workflows that are tedious but important. An agent could monitor a government website for new PDFs, download and name them consistently, extract tables into a dataset, and flag changes for a human to review. The trade-off is risk: when AI can take actions, mistakes have real consequences. Guardrails like approval checkpoints (see [plan mode](/plan-mode/)), least-privilege tool access, and defenses against [prompt injection](/prompt-injection/) become critical. Related concepts include [agent skills](/agent-skills/), [subagents](/subagents/), [Model Context Protocol](/model-context-protocol/), and [the lethal trifecta](/the-lethal-trifecta/).
+    in_use:
+      - text: 'Anthropic is trying to be first to navigate the shift from AI chatbots to _agents_ that has been predicted since before the official release of ChatGPT.'
+        source: TIME
+        url: https://time.com/7346545/ai-claude-cowork-code-chatbots/
+      - text: 'OpenAI CEO Sam Altman began 2025 by saying it would be big for AI _agents_, tools that can automate tasks and take actions on your behalf.'
+        source: TechCrunch
+        url: https://techcrunch.com/2025/01/23/openai-launches-operator-an-ai-agent-that-performs-tasks-autonomously/
+      - text: 'If a tool-using chatbot is like a single digital worker, these new frameworks are like virtual firms in which dozens of _agents_, running 24 hours a day, can be organized hierarchically to accomplish a given task.'
+        source: TIME
+        url: https://time.com/7381463/chat-code-claw-ai-agents-teams/
