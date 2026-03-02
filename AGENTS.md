@@ -55,9 +55,15 @@ definition_list:
       - text: quoted example with _italicized_ term
         source: Publication Name
         url: https://source-url.com
+resources:
+  - name: Resource Name
+    url: https://example.com
+    description: optional brief description of the resource
 ```
 
 Tags are optional. Valid values: `Foundational concepts`, `Reporting on AI`, `Using AI as a tool`. A term can have multiple tags.
+
+Resources are optional. Each resource has a `name` and `url` (both required) and an optional `description`. They appear on the detail page only.
 
 File naming: lowercase, hyphens for spaces (e.g., `machine-learning.yaml`).
 

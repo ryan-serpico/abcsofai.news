@@ -22,3 +22,13 @@ definition_list:
       - text: "A DGM starts with a _coding agent_ that can read, write, and execute code."
         source: IEEE Spectrum
         url: https://spectrum.ieee.org/dgm-ai-coding-agents
+resources:
+  - name: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    description: Anthropic's AI coding agent that runs in your terminal
+  - name: Codex
+    url: https://openai.com/index/introducing-codex/
+    description: OpenAI's cloud-based coding agent
+  - name: Cursor
+    url: https://www.cursor.com/
+    description: AI-powered code editor built on VS Code

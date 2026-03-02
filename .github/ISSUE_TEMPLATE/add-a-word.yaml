@@ -68,6 +68,14 @@ body:
     attributes:
       label: Example 2
       description: If provided, illustrate the definition by providing an example of the word being used in a sentence. Please provide the text and the source URL.
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resources
+      description: Optional links to tools, documentation, or other resources that help readers learn more. Enter one per line in the format "Name - URL - Description (optional)".
+      placeholder: |
+        Claude Code - https://docs.anthropic.com/en/docs/claude-code - Anthropic's AI coding agent
+        Cursor - https://www.cursor.com/ - AI-powered code editor
   - type: checkboxes
     id: terms
     attributes:

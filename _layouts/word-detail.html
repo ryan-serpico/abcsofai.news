@@ -43,13 +43,23 @@
         </div>
       {% endfor %}
     {% endfor %}
-    {% if obj.author %}
-      <div class="detail--author">
-        Entry by {{ obj.author }}
-        {% if obj.last_updated %} &middot; {{ obj.last_updated }}{% endif %}
-      </div>
-    {% endif %}
   </div>
+
+  {% if obj.resources %}
+    <div class="detail--resources">
+      <div class="detail--resources-label">Resources</div>
+      <ul class="detail--resources-list">
+        {% for resource in obj.resources %}
+          <li>
+            <a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name }}</a>
+            {% if resource.description %}
+              <span class="detail--resource-description">&mdash; {{ resource.description }}</span>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
 
   <div class="detail--actions">
     <a aria-label="Flag" href="https://github.com/ryan-serpico/aiglossary.news/issues/new?assignees=ryan-serpico&labels=bug&template=flag-an-error.yaml&title=Error%20with%20{{ obj.word|escape }}&word={{ obj.word|escape }}">
@@ -64,6 +74,13 @@
       </a>
     </div>
   </div>
+
+  {% if obj.author %}
+    <div class="detail--author">
+      Entry by {{ obj.author }}
+      {% if obj.last_updated %} &middot; {{ obj.last_updated }}{% endif %}
+    </div>
+  {% endif %}
 
   <div class="detail--about">
     <a href="/about/">About this glossary</a> &mdash; who's behind this site and how you can contribute.
