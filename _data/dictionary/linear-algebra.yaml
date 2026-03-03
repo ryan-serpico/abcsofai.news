@@ -1,0 +1,22 @@
+word: Linear Algebra
+type: noun
+author: Libby Seline
+last_updated: 'Last updated: March 3, 2026'
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      Generally speaking, linear algebra is the analysis of vectors, matrices, and linear transformations. Linear algebra concepts are essential for machine learning. 
+
+      A typical user of different artificial intelligence is probably not thinking about vectors or matrices, and it's admittedly a bit intimidating to break down the processes behind artificial intelligence. But ultimately, it's important to understand that our applications of AI aren't magic — they're math. 
+
+      **Vector**
+      A vector is a line with magnitude and director. And for large language models, words — or more specifically [tokens](https://aiglossary.news/token/) — are transformed into vectors called [embeddings](https://aiglossary.news/embeddings/). 
+
+      An embedding is a much more complicated vector than the one depicted below. But remember a 2-dimensional vector is a line with an x and a y. 
+
+      ![A 2D vector diagram showing x and y components. Image courtesy of 3Blue1Brown](/assets/images/definition/vector-diagram.png)
+      *Image courtesy of 3Blue1Brown's video ["Vectors, what even are they?"](https://www.3blue1brown.com/?v=vectors) Timestamp: 3:30*
+
+      **In Action**
+      A linear regression model
