@@ -58,6 +58,21 @@ body:
       description: Illustrate the definition by providing an example of the word being used in a sentence. Please provide the text and the source URL.
     validations:
       required: true
+  - type: textarea
+    id: image-1
+    attributes:
+      label: Image (optional)
+      description: >-
+        If you'd like to include an image with this definition, please describe it
+        here. Include: the image source URL, alt text (a description of what the
+        image shows), and credit/attribution information. You can also attach an
+        image file by dragging it into this text box.
+      placeholder: |
+        Source: https://example.com/image.png
+        Alt text: A diagram showing...
+        Credit: Image courtesy of...
+    validations:
+      required: false
   - type: input
     id: def-2
     attributes:

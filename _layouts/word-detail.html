@@ -25,11 +25,28 @@
   {% endif %}
   <hr class="detail--divider" />
 
+  {# allow a front‑matter flag to disable automatic numbering #}
+  {% set showIndexes = obj.show_indexes | default(obj.definition_list|length > 1) %}
+
   <div class="detail--definitions">
     {% for definition in obj.definition_list %}
       <div class="detail--definition-text">
-        {% if obj.definition_list|length > 1 %}<sup>{{ loop.index }}</sup> {% endif %}{{ definition.text|markdown }}
+        {% if showIndexes %}<sup>{{ loop.index }}</sup> {% endif %}{{ (definition.text | default('')) | markdown }}
       </div>
+      {% if definition.image %}
+        <figure class="detail--image">
+          <img src="{{ definition.image.src }}" alt="{{ definition.image.alt }}" loading="lazy">
+          {% if definition.image.caption %}
+            <figcaption>
+              {% if definition.image.credit_url %}
+                <a href="{{ definition.image.credit_url }}" target="_blank" rel="noopener noreferrer">{{ definition.image.caption }}</a>
+              {% else %}
+                {{ definition.image.caption }}
+              {% endif %}
+            </figcaption>
+          {% endif %}
+        </figure>
+      {% endif %}
       {% for use in definition.in_use %}
         <div class="detail--in-use">
           <q>{{ use.text|italicize(obj.word)|markdownInline }}</q>

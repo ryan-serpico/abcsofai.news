@@ -51,6 +51,11 @@ tags:
   - Using AI as a tool
 definition_list:
   - text: plain language definition with [markdown](links)
+    image:
+      src: /assets/images/definition/example.png
+      alt: Description of the image
+      caption: Credit or caption text
+      credit_url: https://source-url.com
     in_use:
       - text: quoted example with _italicized_ term
         source: Publication Name
@@ -58,6 +63,8 @@ definition_list:
 ```
 
 Tags are optional. Valid values: `Foundational concepts`, `Reporting on AI`, `Using AI as a tool`. A term can have multiple tags.
+
+The `image` field is optional. When present, `src` and `alt` are required; `caption` and `credit_url` are optional. Images go in `/assets/images/definition/`.
 
 File naming: lowercase, hyphens for spaces (e.g., `machine-learning.yaml`).
 
