@@ -11,7 +11,7 @@ definition_list:
       In terms of binary classification model's [confusion matrix](https://aiglossary.news/confusion-matrix/), accuracy = TP + TN / (TP + TN + FP + FN). Although the formula for accuracy doesn't change in multiclassification models, you can learn more about using precision in multiclassification models on [Evidently AI](https://www.evidentlyai.com/classification-metrics/multi-class-metrics).
 
 
-      Accuracy is a generally good metric but may not capture the model's abilities. For instance, think about a binary classification model where the output is either "cancer" or "no cancer." The model could be very good at saying there's no cancer (finding true negatives) but not good at labeling cancer (finding true positives, incorrectly making them false negatives). The accuracy metric would not necessarily capture the false negatives or instances where cancer should've been detected but was not. 
+      Accuracy is a generally good metric but doesn't convey all essential information. For instance, think about a binary classification model where the output is either "cancer" or "no cancer." The model could be very good at saying there's no cancer (finding true negatives) but not good at labeling cancer (finding true positives, incorrectly making them false negatives). The accuracy metric would not necessarily capture the false negatives or instances where cancer should've been detected but was not. 
 
 
       There are other metrics used to evaluate the effectiveness of a model including [F1 Score](https://aiglossary.news/f1-score/), [recall](https://aiglossary.news/recall/), and [precision](https://aiglossary.news/precision/).

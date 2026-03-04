@@ -6,13 +6,13 @@ tags:
   - Reporting on AI
 definition_list:
   - text: >-
-      Precision focuses on the 'positive' predictions or the proportion of times a model said the result was positive and the result was actually positive. 
+      Precision focuses on the proportion of times a model said the result was positive and the result was actually positive — as opposed to being labeled positive falsely. When you think about precision, focus on positivity. It's about the *accuracy of positive predictions.*
 
 
       In terms of binary classification model's [confusion matrix](https://aiglossary.news/confusion-matrix/), precision = TP / (TP + FP). You can learn more about using precision in multiclassification models on [Evidently AI](https://www.evidentlyai.com/classification-metrics/multi-class-metrics).
 
 
-      It's helpful to think about precision when evaluating the positive instances of a model is important. Think about a model designed to filter spam emails and regular spam emails. A false positive — or a regular email filtered as spam — isn't great. We don't want very important emails to be labeled as junk. So having a good precision score is important. 
+      It's helpful to think about precision when evaluating the positive instances of a model. Think about a model designed to filter spam emails and regular spam emails. A false positive — or a regular email filtered as spam — isn't great. We don't want very important emails to be labeled as junk. So having a good precision score is important in this scenario in particular. 
 
 
       There are other metrics used to evaluate the effectiveness of a model including [F1 Score](https://aiglossary.news/f1-score/), [recall](https://aiglossary.news/recall/), and [accuracy](https://aiglossary.news/accuracy/).
