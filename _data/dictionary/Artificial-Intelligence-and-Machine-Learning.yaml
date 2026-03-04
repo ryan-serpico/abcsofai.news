@@ -1,0 +1,13 @@
+word: Artificial Intelligence vs. Machine Learning
+type: noun
+author: Libby Seline
+tags:
+  - Foundational concepts
+  - Reporting on AI
+definition_list:
+  - text: >-
+      Most people use these two terms interchangably, but technically they have two distinct meanings. Artificial intelligence is the act of machines making decisions, which could be as simple as an if/else statement in your code. But machine learning requires actual learning. A machine learning model learns how to use given inputs to generate an output.
+  - in_use:
+      - text: 'Though “machine learning” and “artificial intelligence” are often used interchangeably, they are not quite synonymous. In short: all machine learning is AI, but not all AI is machine learning.'
+        source: IBM, 'What is machine learning?' by Dave Bergmann
+        url: https://www.ibm.com/think/topics/machine-learning#7281535
