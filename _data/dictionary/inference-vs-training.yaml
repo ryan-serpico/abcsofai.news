@@ -1,14 +1,18 @@
 word: Inference vs. training
 type: adjective
 author: Jon Keegan
-last_updated: "Last updated: Feb. 26, 2026"
+last_updated: "Last updated: March 4, 2026"
 definition_list:
   - text:  >- 
-       TK TK TK
-    in_use:
-      - text: "While imperfect, the industry has embraced the use of '_benchmarks_' — tests designed to measure an AI model's knowledge and reasoning ability."
-        source: Sherwood News
-        url: https://sherwood.news/tech/openais-arc-de-triumph/
-      - text: "The rapid pace of AI product releases — and a lack of governmental oversight — increases the likelihood that tech companies continue to use the same _benchmarks_, regardless of their shortcomings. "
-        source: The Markup
-        url: https://themarkup.org/artificial-intelligence/2024/07/17/everyone-is-judging-ai-by-these-tests-but-experts-say-theyre-close-to-meaningless
+      In the context of AI computing, there are two primary tasks: training and inference. 
+
+      *Training* is when vast amounts of data are fed into an AI model during the building stage. This could be a corpus of text from books and websites, huge image datasets like XXXXX, or millions of hours of YouTube videos. The process is extremely computationally intensive, and for most of the first stage of the current generative AI boom, the industry had a simple formula: more data fed into more GPUs = a more capable model. 
+
+
+      That worked for several iterations, until the massive leaps in performance started to shrink. Other techniques like reasoning models provided the next wave of breakthroughs.
+
+
+      *Inference* is the process of running an AI model — ingesting a prompt, and generating a response. This is the more common mode of AI computing, as companies are not always training a big new model. Inference is less computationally intensive than trainging. 
+
+      While the early rush to acquire as many Nvidia GPUs was focused on amassing a hoard of chips to train successive generation of models, tech companies like Google and Amazon are building custom inference chips that are far cheaper and more efficient than the most powerful GPUs needed for training. 
+
