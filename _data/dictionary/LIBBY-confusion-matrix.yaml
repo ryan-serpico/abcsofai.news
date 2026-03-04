@@ -5,11 +5,35 @@ tags:
   - Foundational concepts
 definition_list:
   - text: >-
-      TK TK TK TK
-  - in_use:
-      - text: 'Quote1'
-        source: TIME
-        url: https://time.com/7354738/claude-constitution-ai-alignment/
-      - text: 'Quote2'
-        source: TIME
-        url: https://time.com/7202784/ai-research-strategic-lying/
+      A confusion matrix puts into perspective how well the classification model did. For binary classifcation, we can think of it like this:
+      * True Positive (TP) — the number of times the model predicted a "positive" outcome and the outcome was "positive"
+      * True Negative (TN) — the number of times the model predicted a "negative" outcome and the outcome was "negative"
+      * False Positive (FP) — the number of times the model predicted a "positive" outcome when it was supposed to be "negative." For stats people - this is a Type 1 Error. 
+      * False Negative (FN) - the number of times the model predicted a "negative" outcome when it was supposed to be "positive." For stats people - this is a Type 2 Error.
+
+
+      [Accuracy](https://aiglossary.news/accuracy/) = TP + TN / (TP + TN + FP + FN)
+
+
+      [Precision](https://aiglossary.news/precision/) = TP / (TP + FP)
+
+
+      [Recall](https://aiglossary.news/recall/) = TP / (TP + FN)
+
+
+      [F1 Score](https://aiglossary.news/f1-score/) = (2 * Precision * Recall) / (Precision + Recall)
+
+    image:
+      src: /assets/images/definition/predicted_condition_2_.png
+      alt: A confusion matrix courtesy of Geeks for Geeks
+      caption: 'Image courtesy of GeeksforGeeks: Understanding the Confusion Matrix in Machine Learning'
+      credit_url: https://www.geeksforgeeks.org/machine-learning/confusion-matrix-machine-learning/
+
+  - text: >-
+      A matrix can also be used for classification models with multiple classes. The medium article "Confusion Matrix for Multi-Class Classification" by SadafKauser depicts a matrix used for a model that will depict fruit.
+
+    image:
+      src: /assets/images/definition/multiclassification_confusionmatrix.png
+      alt: A confusion matrix courtesy of Geeks for Geeks
+      caption: 'Image courtesy of Medium Article: Confusion Matrix for Multi-Class Classification by SadafKauser'
+      credit_url: https://medium.com/@sadafkauser8143/confusion-matrix-for-multi-class-classification-0d648eb50565
