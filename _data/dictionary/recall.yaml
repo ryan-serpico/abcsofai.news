@@ -1,0 +1,18 @@
+word: Alignment
+type: noun
+author: Libby Seline
+tags:
+  - Foundational concepts
+  - Reporting on AI
+definition_list:
+  - text: >-
+      Recall focuses on the proportion of times a model said the result was positive and the result was correctly labeled. So, recall reflects the number of true positives found of all positives (meaning the true positives and the false negatives).
+
+
+      In terms of binary classification model's [confusion matrix](https://aiglossary.news/confusion-matrix/), recall = TP / (TP + FN). You can learn more about using recall in multiclassification models on [Evidently AI](https://www.evidentlyai.com/classification-metrics/multi-class-metrics).
+
+
+      It's helpful to think about recall when evaluating the false negatives of a model. Think about a model designed to predict whether someone is contagious. A false negative — or someone who is contagious who is labeled as being fine — could have horrible consequences. So having a good recall score is important in this scenario in particular. 
+
+
+      There are other metrics used to evaluate the effectiveness of a model including [F1 Score](https://aiglossary.news/f1-score/), [precision](https://aiglossary.news/precision/), and [accuracy](https://aiglossary.news/accuracy/).

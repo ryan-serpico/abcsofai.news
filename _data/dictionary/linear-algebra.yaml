@@ -43,7 +43,7 @@ definition_list:
       Each number in a row is multiplied by a corresponding weight and the bias term 'b' is added, which is then used to predict the power output.
 
     image:
-      src: assets/images/definition/LinearTransformation.png
+      src: /assets/images/definition/LinearTransformation.png
       alt: A representation of W * x + b = y
       caption: 'Image courtesy of DeepLearning.AI''s video "Linear Algebra Applied II" Timestamp: 2:18'
       credit_url: https://learn.deeplearning.ai/specializations/mathematics-for-machine-learning-and-data-science/lesson/jhga9/linear-algebra-applied-ii
