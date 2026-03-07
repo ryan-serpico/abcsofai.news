@@ -1,5 +1,6 @@
 word: Hugging Face
 type: noun
+show_indexes: false
 author: Libby Seline
 tags:
   - Foundational concepts
